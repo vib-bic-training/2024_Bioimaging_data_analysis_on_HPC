@@ -1,6 +1,6 @@
 <!--
 
-author:   name last_name
+author:   Pavie Benjamin
 email:    training@vib.de
 version:  2.0.0
 language: en
@@ -47,7 +47,7 @@ edition:  1st
 orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"-->
 -->
 
-# Course Title
+# Bioimaging data analysis on the HPC
 
 ```json   @JSONLD
 {
@@ -58,18 +58,24 @@ orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"-->
     "@type": "CreativeWork",
     "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
   },
-  "description": "TeSS, how can I help you? This is our interactive hands-on course about efficient use of the ELIXIR TeSS platform.",
-  "keywords": "FAIR, OPEN, Bioinformatics, Teaching, TeSS",
-  "name": "TeSS, how can I help you?",
+  "description": "Bioimaging data analysis on the HPC.",
+  "keywords": "BioImage, Microscopy, Analysis, HPC, Napari, Globus, Jupyter, Python",
+  "name": "Bioimaging data analysis on the HPC",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "educationalLevel": "beginner",
   "competencyRequired": "none",
   "teaches": [
-    "search events and material in TeSS via direct and faceted search",
-    "add manually and automatically events and material to TeSS",
-    "extract events and material from TeSS by using TeSS widgets"
+    "Understand the scientific high-performance computing(HPC) infrastructure",
+    "Learn to access to the supercomputer infrastructures in Flanders (VSC)",
+    "Transfert, store bioimage/microscopy dataset on the VSC",
+    "Find and load modules available on the VSC to analyze the bioimage/microscopy dataset",
+    "Understand the benefit of using the HPC/VSC infrastructure to analyze bioimage/microscopy dataset",
+    "Run pre-installed solution on the HPC/VSC (Ilastik/Fiji/Napar...) for bioimage analysis tasks (segmentation, denoising etc...)",
+    "Run image analysis pipeline using a jupyter notebook",
+    "Adapting existing solution (zerocost, bioimage zoo) on the VSC",
+    "Discuss how to improve reproducibility in image analysis"
   ],
-  "audience": "training providers",
+  "audience": "biologist, bio-image-analyst",
   "inLanguage": "en-US",
   "learningResourceType": [
     "tutorial"
@@ -77,29 +83,17 @@ orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"-->
   "author": [
     {
       "@type": "Person",
-      "name": "Bruna Piereck"
+      "name": "Tatiana Woller" 
     },
     {
       "@type": "Person",
-      "name": "Olivier Sand"
-    },
-    {
-      "@type": "Person",
-      "name": "Alexander Botzki"
+      "name": "Benjamin Pavie"
     }
   ],
   "contributor": [
     {
       "@type": "Person",
-      "name": "Yasmine Maes"
-    },
-    {
-      "@type": "Person",
-      "name": "Finn Bacall"
-    },
-    {
-      "@type": "Person",
-      "name": "Munazah Andrabi"
+      "name": "Sebastian Munck"
     }
   ]
 }
@@ -125,40 +119,41 @@ Example image to ilustrate the front page of the material. This image was [Desig
 
 Welcome to our {{workshop_name}} workshop! We are very happy to have you here.
 
-This is the {{workshop_edition}} edition of this workshop, jointly organised by the VIB Bioinformatics Core and ELIXIR Belgium.
+This is the {{workshop_edition}} edition of this workshop, jointly organised by the VIB Bioimaging Core, Leuven, BE.
 
-- The first session (12 & 13 October 2023) is dedicated to Containers (Docker & Singularity) which are great tools for code portability and reproducibility of your analysis. You will learn how to use containers and how to build a container from scratch, share it with others and how to re-use and modify existing containers.
+- The session (10 October 2024) is dedicated to .
 
 The **presentation** which goes alongside this material can be found [here](link).
 
-## Proposed Schedule
+## Schedule
 
-Schedule day 1:
+Schedule:
 
-- 9:30 - 11:00 - session
-- 11:00 - 11:15 - break
-- 11:15 - 12:45 - session
-- 12:45 - 13:45 - lunch
-- 13:45 - 15:15 - session
-- 15:15 - 15:30 - break
-- 15:30 - 17:00 - session
-
+- 09:30 - Introduction
+- 10:00 - HPC infrastucture
+- 10:30 - Coffee Break
+- 10:45 - Data Transfer
+- 11:15 - Napari
+- 12:15 - Lunch
+- 13:15 - Napari plugins
+- 14:30 - Coffee break
+- 14:45 - Jupyter notebooks
+- 17:00 - End of the day
 </section>
 
 # Lesson overview
 
 > <i class="fa fa-lock"></i> **License:** [Creative Commons Attribution share alike 4.0 International  License](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 >
-> <i class="fa fa-user"></i> **Target Audience:** Researchers, trainers, training providers
+> <i class="fa fa-user"></i> **Target Audience:** Researchers, biologis
 >
 > <svg xmlns="http://www.w3.org/2000/svg" height="14" width="16" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M384 64c0-17.7 14.3-32 32-32H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448v96c0 17.7-14.3 32-32 32H320v96c0 17.7-14.3 32-32 32H192v96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h96V320c0-17.7 14.3-32 32-32h96V192c0-17.7 14.3-32 32-32h96V64z"/></svg> **Level:** Beginner  
 >
 > <i class="fa fa-arrow-left"></i> **Prerequisites**  
 > To be able to follow this course, learners should have knowledge in:
 > 
-> 1. Basic knowlegde of HTML  
-> 2. Basic knowledge of ...
-> 3. Being comfortable working with ....  
+> 1. Basic knowlegde of Microscopy  
+> 2. Basic knowledge of BioImage Analysis 
 >
 > <i class="fa fa-bookmark"></i> **Description**  This course consist of .....
 > 
@@ -177,7 +172,7 @@ Schedule day 1:
 >
 > 6. Create and integrate ..... [Creating]
 >
->> Check more about [Bloom's taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) to categorize the levels in educational goals
+>> Check more about 
 >
 > <i class="fa fa-hourglass"></i> **Time estimation**: 120 minutes
 >
@@ -190,10 +185,10 @@ Schedule day 1:
 > 
 > <i class="fa fa-life-ring"></i> **Acknowledgement**:
 >
-> * [ELIXIR Belgium](https://www.elixir-belgium.org/)
 > * [VIB Technologies](https://www.vib.be/)
+> * [Vlaams Supercomputer Centrum - VSC](https://www.vscentrum.be/)
 >
-> <i class="fa fa-money-bill"></i> **Funding:** This project has received funding from the ELIXIR Programme 2022-2023.
+> <i class="fa fa-money-bill"></i> **Funding:** .
 >
 > <i class="fa fa-anchor"></i> **PURL**:  
 
@@ -202,13 +197,12 @@ Schedule day 1:
 
 Authors
 
-- [Name](@[orcid](https://orcid.org/XXXX)
+- [Benjamin Pavie](@[orcid](https://orcid.org/0000-0002-0249-3844)
 
 Contributors
 
-- [Name](@[orcid](https://orcid.org/XXXY))
-- [Name](@[orcid](https://orcid.org/XXXZ))
-- [Name](@[orcid](https://orcid.org/XXXA))
+- [Tatiana Woller](@[orcid](https://orcid.org/))
+- [Sebastian Munck](@[orcid](https://orcid.org/0000-0002-5182-5358))
 
 ## Citing this lesson
 
@@ -230,25 +224,20 @@ Please cite as:
 
 Here are some great tips for learning and to get inspired for writing your own pipelines:
 
-- Nextflow's official documentation ([link](https://www.nextflow.io/docs/latest/index.html))
-- Reach out to the community on Slack ([link](https://www.nextflow.io/slack-invite.html))
-- Curated collection of patterns ([link](https://github.com/nextflow-io/patterns))
-- Workshop focused on DSL2 developed by CRG Bioinformatics Core ([link](https://github.com/biocorecrg/ELIXIR_containers_nextflow))
-- Tutorial exercises (DSL1) developed by Seqera ([link](https://github.com/seqeralabs/nextflow-tutorial))
-- Curated ready-to-use analysis pipelines by NF-core ([link](https://nf-co.re/))
-- Model example pipeline on Variant Calling Analysis with NGS RNA-Seq data developed by CRG ([link](https://github.com/CRG-CNAG/CalliNGS-NF))
-- Tutorial by Andrew Severin ([link](https://bioinformaticsworkbook.org/dataAnalysis/nextflow/02_creatingAworkflow.html#gsc.tab=0))
-- Nextflow community basic training ([link](https://training.nextflow.io/basic_training/))
+- VSC Tier 1 documentation ([link](https://docs.vscentrum.be/hardware-tier1.html))
+- Globus ([link](https://www.globus.org/))
+- EasyBuild([link](https://docs.easybuild.io/))
+- QuPath ([link](https://qupath.readthedocs.io))
+- QuPath ([link](https://qupath.readthedocs.io))
+- Napari ([link](https://napari.org))
+- DevBio ([link](https://github.com/haesleinhuepf/devbio-napari))
+- BioImage Analysis Notebooks from Robert Haase([link](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html))
 
 # About us
 
-*About ELIXIR Training Platform*
+*About VSC*
 
-The ELIXIR Training Platform was established to develop a training community that spans all ELIXIR member states (see the list of Training Coordinators). It aims to strengthen national training programmes, grow bioinformatics training capacity and competence across Europe, and empower researchers to use ELIXIR's services and tools.
-
-One service offered by the Training Platform is TeSS, the training registry for the ELIXIR community. Together with ELIXIR France and ELIXIR Slovenia, VIB as lead node for ELIXIR Belgium is engaged in consolidating quality and impact of the TeSS training resources (2022-23) (https://elixir-europe.org/internal-projects/commissioned-services/2022-trp3).
-
-The Training eSupport System was developed to help trainees, trainers and their institutions to have a one-stop shop where they can share and find information about training and events, including training material. This way we can create a catalogue that can be shared within the community. How it works is what we are going to find out in this course.
+The Flemish Supercomputer Center (Vlaams Supercomputer Centrum - VSC) is a partnership between the five Flemish universities and their university associations: Associatie Universiteit & Hogescholen Antwerpen, Universitaire Associatie Brussel, Associatie Universiteit Gent, Associatie KU Leuven and Associatie Universiteit-Hogescholen Limburg. This consortium brings together knowhow in scientific and technical computing (including high performance computing, high throughput computing, cloud computing and data processing) in Flanders, and houses infrastructure in four hubs: the datacenters of the universities of Antwerp, Brussels, Ghent and Leuven. The VSC is managed by the Research Fund – Flanders (FWO).
 
 *About VIB and VIB Technologies*
 
@@ -261,10 +250,7 @@ The goal of VIB Technology Training is to up-skill life scientists to excel in t
 --------------------------------------------
 
 *Editorial team for this course*
-
-Authors: @[orcid(Alexander Botzki)](https://orcid.org/0000-0001-6691-4233), @[orcid(Bruna Piereck)](https://orcid.org/0000-0001-5958-0669)
-
-Technical Editors: Alexander Botzki
+Authors: @[orcid(Benjamin Pavie)]([https://orcid.org/0000-0001-6691-4233](https://orcid.org/0000-0002-0249-3844)), @[orcid(Tatian Woller)](https://orcid.org/)
 
 License: [![CC BY SA](img/picture003.jpg)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 

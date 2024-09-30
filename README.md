@@ -106,9 +106,7 @@ Hello and welcome to our @tutor workshop! We are very happy to have you here.
 
 This is the @edition edition of this workshop, jointly organised by BioImaging Core Leuven in partnership with VSC.
 
-<img src="./images/globes/41920.jpg" width="350" align="center"/>
-
-Example image to ilustrate the front page of the material. This image was [Designed by macrovector / Freepik](https://www.freepik.com/free-vector/globe-earth-world-icons-vector-white-black_10601425.htm#fromView=author&page=1&position=27&uuid=726a85e1-abc9-4f55-a242-bdb7cd5733f1)
+<img src="https://static.wixstatic.com/media/5446c2_a7e080a424d242eb8334cd98be1899bd~mv2.png/v1/fill/w_920,h_722,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/07072023_VSC-Tier-1-Hortense_Illustration.png" width="800" align="center"/>
 
 > We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
 > It is a distributed way of creating and sharing educational content hosted on github.

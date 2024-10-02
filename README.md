@@ -201,8 +201,7 @@ Please cite as:
 
 | Chapter | Title                                                   |
 | :---- | :------------------------------------------------         |
-| 0     | [Get ready for the course, installation and pre-reading](link) |
-| 1     | [Chapter title](link)                                             |
+| 1     | [Chapter 1](Chapters/Chapter01.md)                                             |
 | 2     | [Chapter title](link)                                             |
 | 3     | [Chapter title](link)                                             |
 

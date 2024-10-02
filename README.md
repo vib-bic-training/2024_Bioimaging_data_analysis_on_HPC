@@ -26,6 +26,8 @@ link:     https://raw.githubusercontent.com/vibbits/material-liascript/master/vi
 
 tutor:    VIB
 edition:  1st 
+workshop_name:     Bioimaging data analysis on HPC
+workshop_edition: 1st
 
 @JSONLD
 <script run-once>
@@ -103,10 +105,6 @@ orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"-->
 
 <section>
 
-Hello and welcome to our @tutor workshop! We are very happy to have you here.
-
-This is the @edition edition of this workshop, jointly organised by BioImaging Core Leuven in partnership with VSC.
-
 <img src="https://static.wixstatic.com/media/5446c2_a7e080a424d242eb8334cd98be1899bd~mv2.png/v1/fill/w_920,h_722,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/07072023_VSC-Tier-1-Hortense_Illustration.png" width="800" align="center"/>
 
 > We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
@@ -116,13 +114,13 @@ This is the @edition edition of this workshop, jointly organised by BioImaging C
 
 ## General context
 
-Welcome to our {{workshop_name}} workshop! We are very happy to have you here.
+Welcome to our @workshop_name workshop! We are very happy to have you here.
 
-This is the {{workshop_edition}} edition of this workshop, jointly organised by the VIB Bioimaging Core, Leuven, BE.
+This is the @workshop_edition edition of this workshop, jointly organised by the VIB Bioimaging Core, Leuven, BE with the help of the VSC
 
 - The session (10 October 2024) is dedicated to .
 
-The **presentation** which goes alongside this material can be found [here](link).
+The **presentation** which goes alongside this material can be found [here](https://docs.google.com/presentation/d/1LVv2gwd0vwWmAoey-QeU2LNWvFkN3FDSE06BHhWusOs/edit?usp=sharing).
 
 ## Schedule
 

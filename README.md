@@ -105,12 +105,7 @@ orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"-->
 
 <section>
 
-<img src="https://static.wixstatic.com/media/5446c2_a7e080a424d242eb8334cd98be1899bd~mv2.png/v1/fill/w_920,h_722,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/07072023_VSC-Tier-1-Hortense_Illustration.png" width="800" align="center"/>
-
-> We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
-> It is a distributed way of creating and sharing educational content hosted on github.
-> To see this document as an interactive LiaScript rendered version, click on the
-> following link/badge: [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/training_material_template/main/README.md)
+<img src="images/bioimaging_analysis_hpc_workshop_.png" width="800" align="center"/>
 
 ## General context
 
@@ -229,6 +224,11 @@ Here are some great tips for learning and to get inspired for writing your own p
 - Napari ([link](https://napari.org))
 - DevBio ([link](https://github.com/haesleinhuepf/devbio-napari))
 - BioImage Analysis Notebooks from Robert Haase([link](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html))
+
+> We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
+> It is a distributed way of creating and sharing educational content hosted on github.
+> To see this document as an interactive LiaScript rendered version, click on the
+> following link/badge: [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/training_material_template/main/README.md)
 
 # About us
 

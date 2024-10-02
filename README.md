@@ -1,7 +1,7 @@
 <!--
 
 author:   Pavie Benjamin
-email:    training@vib.de
+email:    benjamin.pavie@vib.de
 version:  2.0.0
 language: en
 narrator: UK English Female
@@ -53,7 +53,8 @@ orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"-->
 {
   "@context": "https://schema.org/",
   "@type": "LearningResource",
-  "@id": "https://elixir-europe-training.github.io/ELIXIR-TrP-TeSS/",
+  "@id": "https://github.com/vib-bic-training/2024_Bioimaging_data_analysis_on_HPC/",
+
   "http://purl.org/dc/terms/conformsTo": {
     "@type": "CreativeWork",
     "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"

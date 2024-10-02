@@ -152,37 +152,33 @@ Schedule:
 > <i class="fa fa-arrow-right"></i> **Learning Outcomes:**  
 > By the end of the course, learners will be able to:
 >
-> 1. Define what ..... [Remembering] 
+> 1. Connect to the Vlaam Super Ccomputer (VSC) infrasctructure
 >
-> 2. Discuss and explain ..... [Understanding] 
+> 2. Upload/download dataset to the HPC using Globus
 >
-> 3. Apply and modify ..... [Applying] 
+> 3. Uisng via the BANDs platform seleveral bioimage analysis tools such as Napari, QuPath etc...
 >
-> 4. Compare ..... [Analysing] 
+> 4. Run some pipeline
 >
-> 5. Evaluate and select ..... [Evaluating] 
->
-> 6. Create and integrate ..... [Creating]
+> 5. Use the easybuild module to run Jupyter notebook
 >
 >> Check more about 
 >
-> <i class="fa fa-hourglass"></i> **Time estimation**: 120 minutes
+> <i class="fa fa-hourglass"></i> **Time estimation**: 360 minutes
 >
-> <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations](https://vibbits-nextflow-workshop.readthedocs.io/en/latest/installations.html) section.
+> <i class="fa fa-asterisk"></i> **Requirements:** You need a [VSC account](https://www.vscentrum.be/getaccess) and a latop .
 >
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 > 
-> 1. [Exercises and solutions](https://github.com/vibbits/nextflow-workshop)
-> 2. [Slides]()  
+> 1. [Exercises and solutions](https://github.com/vib-bic-training/2024_Bioimaging_data_analysis_on_HPC)
+> 2. [Slides](https://docs.google.com/presentation/d/1LVv2gwd0vwWmAoey-QeU2LNWvFkN3FDSE06BHhWusOs/edit#slide=id.g30766b9157d_0_75)  
 > 
 > <i class="fa fa-life-ring"></i> **Acknowledgement**:
 >
 > * [VIB Technologies](https://www.vib.be/)
 > * [Vlaams Supercomputer Centrum - VSC](https://www.vscentrum.be/)
 >
-> <i class="fa fa-money-bill"></i> **Funding:** .
->
-> <i class="fa fa-anchor"></i> **PURL**:  
+> <i class="fa fa-money-bill"></i> **Funding:** : This project has received funding from VIB.
 
 
 # Authors and Contributors
@@ -206,7 +202,7 @@ Please cite as:
 
 | Chapter | Title                                                   |
 | :---- | :------------------------------------------------         |
-| 0     | [Get ready for the course, instalation and pre-reading](link) |
+| 0     | [Get ready for the course, installation and pre-reading](link) |
 | 1     | [Chapter title](link)                                             |
 | 2     | [Chapter title](link)                                             |
 | 3     | [Chapter title](link)                                             |

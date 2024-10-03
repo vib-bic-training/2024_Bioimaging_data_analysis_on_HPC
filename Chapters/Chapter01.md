@@ -91,42 +91,42 @@ On top of the filesystem, each clusters will have different computational powers
 | donphan ** | 738 | 1.6 TB NVME | 1 shared NVIDIA Ampere A2 |
 | gallade | 940 | 1.5 TB NVME | - |
 
-** [debugging cluster (Used for debugging and training)](https://docs.hpc.ugent.be/Linux/interactive_debug/)
+\** [debugging cluster (Used for debugging and training)](https://docs.hpc.ugent.be/Linux/interactive_debug/)
 
 --------------------------------------------------------------------------
 
 #### UGent TIER 1
 
 | Cluster name  | Memory (GiB) | Disk space (GB) SSD  |  GPU | GPU memory (GiB)|
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | cpu_rome | 256 | 480 | - | - |
-| cpu_rome_512| 512 | 480 | - | - |
-| cpu_milan | 256 |480| - | - |
+| cpu_rome_512 | 512 | 480 | - | - |
+| cpu_milan | 256 | 480 | - | - |
 | gpu_rome_a100_40| 256 | 480 | 4 NVIDIA A100  | 40 |
 | gpu_rome_a100_80 | 512 | 480 | 4 NVIDIA A100  | 80 |
-| debug_rome ** | 256| 100 | 1 NVIDIA Quadro P1000 | 4|
+| debug_rome ** | 256| 100 | 1 NVIDIA Quadro P1000 | 4 |
 
-- [debugging cluster (Used for debugging and training)](https://docs.hpc.ugent.be/Linux/interactive_debug/)
-- NB: There are two additional two clusters called cpu_rome_all and gpu_rome_a100.
-- cpu_rome_all corresponds to a combination of cpu_rome and cpu_rome_512.
-- gpu_rome_a100_all corresponds to a combination of gpu_rome_a100_40 and gpu_rome_a100_80.
-****************************************************
+\** [debugging cluster (Used for debugging and training)](https://docs.hpc.ugent.be/Linux/interactive_debug/)
+
+NB: There are two additional two clusters called `cpu_rome_all` and `gpu_rome_a100`.
+- `cpu_rome_all corresponds` to a combination of `cpu_rome` and `cpu_rome_512`.
+- `gpu_rome_a100_all` corresponds to a combination of `gpu_rome_a100_40` and `gpu_rome_a100_80`.
+
 
 Filesystems specifics
 ---------------------------
 
-| Filesystem name  | Intended usage | Total storage space | Personal storage space | VO storage space **|
+| Filesystem name  | Intended usage | Total storage space | Personal storage space | VO storage space ** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| $VSC_HOME | Home directory, Not the entry point to the system, same as Tier2 | ? | 3GB (fixed) | :x: |
-| $VSC_SCRATCH | Entry point to the system | ? | 3GB (fixed) | :x: |
-| $VSC_DATA | Long-term storage of large data files | ? | Depend of you account(Leuven/Gent, see above) | :x: |
+| $VSC_HOME | Home directory, Not the entry point to the system, same as Tier2 | ? | 3GB (fixed) | ❌ |
+| $VSC_SCRATCH | Entry point to the system | ? | 3GB (fixed) | ❌ |
+| $VSC_DATA | Long-term storage of large data files | ? | Depend of you account(Leuven/Gent, see above) | ❌ |
 | $VSC_SCRATCH_PROJECTS_BASE/2024_300/| Temporary fast storage of ‘live’ data for calculations | ? | 20TB | upon request |
 
 <!-- style="color: #7CA1CC;" --> \** Storage space for a group of users (Virtual Organisation or VO for short) can be increased significantly on request.
 
-> - Source : https://docs.vscentrum.be/gent/tier1_hortense.html#system-specific-aspects
->
-> - For more information on the different partitions: https://docs.vscentrum.be/en/latest/gent/tier1_hortense.html#general-information
+> Source : https://docs.vscentrum.be/gent/tier1_hortense.html#system-specific-aspects
+> For more information on the different partitions: https://docs.vscentrum.be/en/latest/gent/tier1_hortense.html#general-information
 
 ---------------------------------------------
 
@@ -160,19 +160,18 @@ On Tier1, `my_dodrio_quota` give the space available on the `$VSC_SCRATCH` (firs
 Filesystems specifics
 ---------------------------
 
-| Filesystem name  | Intended usage | Total storage space | Personal storage space | VO storage space (*)|
+| Filesystem name  | Intended usage | Total storage space | Personal storage space | VO storage space (*) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| $VSC_HOME | Home directory, entry point to the system | 51 TB | 3GB (fixed) | :x: |
+| $VSC_HOME | Home directory, entry point to the system | 51 TB | 3GB (fixed) | ❌ |
 | $VSC_DATA | Long-term storage of large data files | 1.8 PB | 25GB (fixed) | 250GB |
 | $VSC_SCRATCH | Temporary fast storage of ‘live’ data for calculations | 1.9 PB | 25GB (fixed) | 250GB |
 | $VSC\_SCRATCH\_ARCANINE | Temporary very fast storage of ‘live’ data for calculations (recommended for very I/O-intensive jobs) | 70 TB  | (none) | upon request |
 (*) Storage space for a group of users (Virtual Organisation or VO for short) can be increased significantly on request.
 
-Source : https://docs.vscentrum.be/en/latest/gent/tier2_hardware.html?highlight=VSC_DATA#shared-storage
+> Source : https://docs.vscentrum.be/en/latest/gent/tier2_hardware.html?highlight=VSC_DATA#shared-storage
 
 ----------------------------------------------
 
-********************************************************************************
 
 ### KULeuven VSC
 
@@ -186,45 +185,45 @@ Overview KULeuven-VSC
 
 | Tier  | Login (vscnumber) | Personal storage space | VO Storage Space |  VO Project space |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|Tier 2 Leuven | login.hpc.kuleuven.be |yes|yes| none|
+|Tier 2 Leuven | login.hpc.kuleuven.be | yes | yes | none |
 
 Clusters specifics at KULeuven - VSC
 -----------------------------------
 
 #### Tier 2 KUL Genius
 
-| Cluster name | Memory (GiB) | Disk space  | GPU | GPU memory (GiB)|
-|---|---|---|---|---|
-| batch/batch_long | 192 | 200 GB SSD | - | -|
-| interactive | 192 | 200 GB SSD | - | -|
-| bigmem| 768 | 200 GB SSD | - | - |
-| gpu_p100 | 192 | 200 GB SSD | 4 NVIDIA P100 |16|
-| GPU_v100 | 768 | 200 GB SSD | 8 NVIDIA V100 | 32|
-|amd| 256 | 200 GB SSD | - |-|
+| Cluster name | Memory (GiB) | Disk space  | GPU | GPU memory (GiB) |
+| --- | --- | --- | --- | --- |
+| batch/batch_long | 192 | 200 GB SSD | - | - |
+| interactive | 192 | 200 GB SSD | - | - |
+| bigmem | 768 | 200 GB SSD | - | - |
+| gpu_p100 | 192 | 200 GB SSD | 4 NVIDIA P100 | 16 |
+| GPU_v100 | 768 | 200 GB SSD | 8 NVIDIA V100 | 32 |
+| AMD | 256 | 200 GB SSD | - | - |
 
 -----------------------------------------------
 
 ####  Tier 2 KUL wICE
 
-| Cluster name | Memory (GiB) | Disk space  | GPU | GPU memory (GiB)|
-|---|---|---|---|---|
-| batch/batch_long | 256 | 960 GB SSD | - | -|
-| batch_sapphirerapids/batch_sapphirerapids_long| 256 | 960 GB SSD | - | -|
+| Cluster name | Memory (GiB) | Disk space  | GPU | GPU memory (GiB) |
+| --- | --- | --- | --- | --- |
+| batch/batch_long | 256 | 960 GB SSD | - | - |
+| batch\_sapphirerapids **or** batch\_sapphirerapids_long | 256 | 960 GB SSD | - | - |
 | bigmem | 256 | 2048 GB SSD | - | - |
-| hugemem | 960 | 8000 GB SSD | - | -|
+| hugemem | 960 | 8000 GB SSD | - | - |
 | gpu | 512| 960 GB SSD | 4 NVIDIA A100 SXM4 | 80 |
-| gpu_h100 | 768 | 960 GB SSD | 4 NVIDIA H100 | 80|
-| interactive and gpu_a100_debug | 512| 960 GB SSD | 1 NVIDIA A100 | 80 |
+| gpu_h100 | 768 | 960 GB SSD | 4 NVIDIA H100 | 80 |
+| interactive and gpu_a100_debug | 512 | 960 GB SSD | 1 NVIDIA A100 | 80 |
 
 
 Filesystems specifics
 ---------------------------
 
-| Filesystem name  | Intended usage | Total storage space | Personal storage space | VO storage space (*)|
+| Filesystem name  | Intended usage | Total storage space | Personal storage space | VO storage space (*) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| $VSC_HOME | Home directory, entry point to the system | ? | 3GB (fixed) | :x: |
-| $VSC_DATA | Long-term storage of large data files | ? | 75GB (fixed) | :x: |
-| $VSC_SCRATCH | Temporary fast storage of ‘live’ data for calculations | ? | 500GB | ? |
+| $VSC_HOME | Home directory, entry point to the system | ? | 3GB (fixed) | ❌ |
+| $VSC_DATA | Long-term storage of large data files | ? | 75GB (fixed) | ❌ |
+| $VSC_SCRATCH | Temporary fast storage of **live** data for calculations | ? | 500GB | ? |
 
 <!-- style="color: magenta" --> What do we need the below info? (Bruna - check if there is the same for UGent)
 
@@ -232,7 +231,7 @@ Filesystems specifics
 | ------------- | ------------- |
 | $VSC_HOME | /user/leuven/30X/vsc30XYZ | 
 | $VSC_DATA | /data/leuven/30X/vsc30XYZ|
-| \$VSC_SCRATCH **or** \$VSC\_SCRATCH\_SITE | /scratch/leuven/30X/vsc30XYZ |
+| $VSC_SCRATCH **or** $VSC\_SCRATCH\_SITE | /scratch/leuven/30X/vsc30XYZ |
 | $VSC\_SCRATCH\_NODE | /local_scratch |
 
 > Source : https://docs.vscentrum.be/en/latest/leuven/tier2_hardware/kuleuven_storage.html?highlight=VSC_DATA#ku-leuven-storage
@@ -343,6 +342,7 @@ Select the appropriate version of the jupyter notebook and load the easy build m
 ![image](../images/Chapter01_jupyter.png)
 
 i.e. 6.4.0 GCC core 11.3.0 IPython 8.5.0 is compatible with foss-2022a or intel 2022a modules (see compatibility table below)
+
 | FOSS  | GCC |  CUDA | OpenMPI | OpenBLAS | FFTW | ScaLAPACK |
 | ------| --- | ----- | ------- | -------- | ---- | --------- |
 | 2022b | 12.2.0 | 12.0.0 | 4.1.4 | 0.3.21 | 3.3.10 | 2.2.0-fb |

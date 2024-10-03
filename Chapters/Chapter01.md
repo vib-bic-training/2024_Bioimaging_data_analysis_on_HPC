@@ -355,9 +355,7 @@ i.e. 6.4.0 GCC core 11.3.0 IPython 8.5.0 is compatible with foss-2022a or intel 
 
 > More information : https://hprc.tamu.edu/kb/Software/GNU-Compiler-Collection/ 
 
-#### Compatibility Python and GCCcore
-
-##### Tier 1
+#### Compatibility Python and GCCcore on Tier 1
 
 | IPython version | Python | GCCcore |
 | ----- | ----- | ----- |

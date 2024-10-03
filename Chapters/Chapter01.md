@@ -285,19 +285,21 @@ The European model for HPC consists of three levels of computing capacity:
 > - Tier-1 cloud (virtual machines and etc...)
 > - Tier-1 compute (calculations, access through terminal or through graphical user interface through Open On Demand)
 
-## Creating a job what you need
+## Creating a job
 
 <!-- style="color: magenta ;" --> To be developed
 
-- There exists several queues for different kind of jobs (memory, presence or absence gpus, test queues)
+- There is several queues for different kind of jobs (memory, presence or absence gpus, test queues)
 - Reservation (fast queue with reservation flag for training)
 - Talk about documentation and how to navigate 
 
 
 ### Installed software
 
-<!-- style="color: magenta ;" --> 
-#### How to use a module in command line (add a ! to use this command in a jupyter notebook)
+#### Easy build modules
+
+From a terminal (or from a Jupyter notebook, add a `!` to use this command)
+
 - See loaded modules
 ```
 ml
@@ -331,7 +333,7 @@ module swap Y  X
 ```
 module purge
 ```
-:warning: Do not load modules built with intel and foss toolchains
+⚠️ Do not load modules built with intel and foss toolchains
 
 🗎 https://docs.vscentrum.be/software/software_stack.html#using-the-module-system
 

@@ -247,7 +247,7 @@ Credits can be obtained through various type of research projects (through unive
 
 -------------------------------------------------
 
-*****************************************************
+
 ## Introduction to HPC
 
 High performance computing (HPC) is a technology that uses clusters of powerful processors, working in parallel, to process massive multi-dimensional datasets (big data) and solve complex problems at extremely high speeds. HPC systems typically perform at speeds more than one million times faster than the fastest commodity desktop, laptop or server systems. [https://www.ibm.com/topics/hpc].
@@ -353,9 +353,9 @@ i.e. 6.4.0 GCC core 11.3.0 IPython 8.5.0 is compatible with foss-2022a or intel 
 | 2020a | 9.3.0 | - | 4.0.3 | 0.3.9 | 3.3.8 | 2.1.9 |
 | 2019b | 8.3.0 | - | 3.1.4 | 0.3.7 | 3.3.8 | 2.0.2 |
 
-For more information about modules: https://hprc.tamu.edu/kb/Software/GNU-Compiler-Collection/ 
+> More information : https://hprc.tamu.edu/kb/Software/GNU-Compiler-Collection/ 
 
-#### Compatibility Python - GCCcore
+#### Compatibility Python and GCCcore
 
 ##### Tier 1
 

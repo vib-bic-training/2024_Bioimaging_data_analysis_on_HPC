@@ -50,15 +50,15 @@ orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"
 -->
 
 
-## Provided infrastructure for training and projects
+## Infrastructure
 
 Check here what are the clusters available in each section of the VSC. You can see the names and some of the resources linked to each of them. This might not make much difference for you now, but is very useful when you wan to optimize your analysis and pipelines.
 
 Sending a job into an appropriate cluster can make the difference in how much time you wait in the "line" and how much memory you will have available for example.
 
-### UGent section of the VSC
+### UGent VSC
 
-If for your training session you are using the [UGent section]((https://docs.vscentrum.be/gent/tier2_hardware.html) or Tier1 of the [Flemish Supercomputing Center](https://www.vscentrum.be/), it's very likely that you will be using the gpu cluster and debug cluster through the. As you can imagine this is not the only cluster you can use, but for trai is good to have an interactive session in order to understand how it is working.
+If for your training session you are using the [UGent section]((https://docs.vscentrum.be/gent/tier2_hardware.html) or Tier1 of the [Flemish Supercomputing Center](https://www.vscentrum.be/), it's very likely that you will be using the GPU cluster and debug cluster through the. As you can imagine this is not the only cluster you can use, but for trai is good to have an interactive session in order to understand how it is working.
 
 <!-- style="color: #7CA1CC;" --> Each section of the **VSC** has independent managing systems. 
 
@@ -66,7 +66,7 @@ It means that the files and storage systems in place **will vary**. Knowing this
 
 As you probably already guessed, there is a difference if we are talking about personal use and project wise. Specific projects might request specific resources and will define who can access it.
 
-Overview UGent-VSC
+Overview UGent VSC
 -------------
 <!-- style="color: magenta" --> VO = virtual organization
 
@@ -75,7 +75,7 @@ Overview UGent-VSC
 |Tier 1 | tier1.hpc.ugent.be |yes|yes|yes|
 |Tier 2 Ghent | login.hpc.ugent.be |yes|yes|none|
 
-Clusters specifics at UGent - VSC
+UGent VSC Clusters
 -----------------------------------
 
 On top of the filesystem, each clusters will have different computational powers, therefore, depending on your needs, you can choose the one that most suits you.
@@ -130,20 +130,12 @@ Filesystems specifics
 
 ---------------------------------------------
 
-****************************************************
-
-           {{1}}
-****************************************************
-
 Check the quota
 ---------------------
 
-<!-- style="color: magenta" 
-#### UGent TIER 1
-
 `my_dodrio_quota`
 
-```
+```bash
 Userquota:
 Disk quotas for prj 2534840 (pid 2534840):
      Filesystem    used   quota   limit   grace   files   quota   limit   grace
@@ -159,14 +151,11 @@ On Tier1, `my_dodrio_quota` give the space available on the `$VSC_SCRATCH` (firs
 
 ---------------------------------------------------------
 
-****************************************************
 
 #### UGent TIER 2
 
  `show_quota` or go to https://account.vscentrum.be for a general overview
 
-           {{0}}
-****************************************************
 
 Filesystems specifics
 ---------------------------
@@ -185,7 +174,7 @@ Source : https://docs.vscentrum.be/en/latest/gent/tier2_hardware.html?highlight=
 
 ********************************************************************************
 
-### KULeuven section of the VSC
+### KULeuven VSC
 
 If for your training session you are using the [KULeuven section](https://docs.vscentrum.be/leuven/genius_quick_start.html#access-to-the-cluster) of the [Flemish Supercomputing Center](https://www.vscentrum.be/), it's very likely that your group is in a list of people with priorities for a reserved cluster. As you read this you can imagine that there is not only cluster option you can use. Different clusters will have different computational powers, therefore, depending on what you will do you can choose the one that most suits you.
 
@@ -228,9 +217,6 @@ Clusters specifics at KULeuven - VSC
 | interactive and gpu_a100_debug | 512| 960 GB SSD | 1 NVIDIA A100 | 80 |
 
 
-           {{0}}
-****************************************************
-
 Filesystems specifics
 ---------------------------
 
@@ -253,10 +239,6 @@ Filesystems specifics
 
 -----------------------------------------------------------------
 
-****************************************************
-
-           {{1}}
-****************************************************
 
 Projects and reservation for Tier-2 KU Leuven
 -----------------------------------------------

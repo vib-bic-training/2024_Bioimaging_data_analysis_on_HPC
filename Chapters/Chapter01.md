@@ -340,7 +340,7 @@ module purge
 #### How to load module in jupyter notebook
 Select the appropriate version of the jupyter notebook and load the easy build module accordingly
 
-![image](https://github.com/vibbits/bioimaging-starting-grant/assets/103046100/70dfd6f5-becc-4fb5-9a8a-6b4274a54bad)
+![image](../images/Chapter01_jupyter.png)
 
 i.e. 6.4.0 GCC core 11.3.0 IPython 8.5.0 is compatible with foss-2022a or intel 2022a modules (see compatibility table below)
 | FOSS  | GCC |  CUDA | OpenMPI | OpenBLAS | FFTW | ScaLAPACK |

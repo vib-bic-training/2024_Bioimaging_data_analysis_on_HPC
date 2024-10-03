@@ -357,17 +357,17 @@ For more information about modules: https://hprc.tamu.edu/kb/Software/GNU-Compil
 
 #### Compatibility Python - GCCcore
 
-#### Tier 1
+##### Tier 1
+
+| IPython version | Python | GCCcore |
+| ----- | ----- | ----- |
+| 7.25.0 GCCcore 10.3.0 | Python 3.9.5  | GCCcore 10.3.0 |
+| 6.4.0  GCCcore 11.2.0 | Python 3.9.6  | GCCcore 11.2.0 |
+| 8.5.0  GCCcore 11.3.0 | Python 3.10.4 | GCCcore 11.3.0 |
+| 7.0.3  GCCcore 12.2.0 | Python 3.10.8 | GCCcore 12.2.0 |
+| 7.0.2  GCCcore 12.3.0 | Python 3.11.3 | GCCcore 12.3.0 |
 
 Table for jupyter notebook
- 
-| IPython version | Python | GCCcore |
-| ------------- | ------------- | ------------- |
-| 7.25.0-GCCcore-10.3.0 | Python 3.9.5 | GCCcore-10.3.0 |
-| 6.4.0-GCCcore-11.2.0 | Python 3.9.6 | GCCcore-11.2.0 |
-| 8.5.0-GCCcore-11.3.0 | Python 3.10.4 | GCCcore-11.3.0 |
-| 7.0.3 GCCcore 12.2.0 | Python 3.10.8 | GCCcore 12.2.0 |
-| 7.0.2 GCCcore 12.3.0 | Python 3.11.3 | GCCcore 12.3.0 |
 
 
  How to see what is loaded with the module:

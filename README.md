@@ -107,7 +107,7 @@ orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"
 
 <section>
 
-<img src="images/bioimaging_analysis_hpc_workshop_.png" width="800" align="center"/>
+<img src="images/bioimaging_analysis_hpc_workshop_.png" width="650" height="606" align="center"/>
 
 ## General context
 
@@ -158,7 +158,7 @@ Schedule:
 >
 > 2. Upload/download dataset to the HPC using Globus
 >
-> 3. Uisng via the BANDs platform seleveral bioimage analysis tools such as Napari, QuPath etc...
+> 3. Using BANDs platform to access to several bioimage analysis tools such as Napari, QuPath etc...
 >
 > 4. Run some pipeline
 >

@@ -1,4 +1,4 @@
 # Exercise 3:
 
-- Open your globus personnal connector 
+- Open your globus personnal connector (à continuer)
 

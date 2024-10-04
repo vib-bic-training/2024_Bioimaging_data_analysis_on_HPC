@@ -24,7 +24,7 @@ How do you list the container of a map?
 ```
 
 ```
-How do you make/remove a map?
+How do you make/remove a map? (make your own map in /dodrio/scratch/projects/2024_300/)
 ```
 ```
 How do you check the memory of your different folder ($VSC_SCRATCH, $VSC_DATA, $VSC_SCRATCH_PROJECTS_BASE)?

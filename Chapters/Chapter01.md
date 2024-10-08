@@ -410,7 +410,7 @@ Table for jupyter notebook
 10. Matplotlib: matplotlib/3.5.2-foss-2022a or matplotlib/3.4.3-intel-2021b
 11. Bioconductor:  R-bundle-Bioconductor/3.14-foss-2021b-R-4.1.2
 
-
+Let's go to the [next chapter](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-bic-training/2024_Bioimaging_data_analysis_on_HPC/refs/heads/main/Chapters/Chapter01.md)!
 
 
 

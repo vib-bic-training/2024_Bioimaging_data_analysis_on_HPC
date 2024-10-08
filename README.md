@@ -205,8 +205,7 @@ Please cite as:
 | Chapter | Title                                                   |
 | :---- | :------------------------------------------------         |
 | 1     | [Chapter 1](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-bic-training/2024_Bioimaging_data_analysis_on_HPC/refs/heads/main/Chapters/Chapter01.md#1) |
-| 2     | [Chapter title](link)                                             |
-| 3     | [Chapter title](link)                                             |
+| 2     | [Chapter 2](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-bic-training/2024_Bioimaging_data_analysis_on_HPC/refs/heads/main/Chapters/Chapter02.md#1) |
 
 
 # References

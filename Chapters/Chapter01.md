@@ -48,15 +48,13 @@ workshop_edition: 1st
 
 orcid:    [@0](@1)<!--class="orcid-logo-for-author-list"
 -->
-# Chapter 1
-
-## Infrastructure
+# Chapter 1 : Infrastructure
 
 Check here what are the clusters available in each section of the VSC. You can see the names and some of the resources linked to each of them. This might not make much difference for you now, but is very useful when you wan to optimize your analysis and pipelines.
 
 Sending a job into an appropriate cluster can make the difference in how much time you wait in the "line" and how much memory you will have available for example.
 
-### UGent VSC
+## UGent VSC
 
 If for your training session you are using the [UGent section]((https://docs.vscentrum.be/gent/tier2_hardware.html) or Tier1 of the [Flemish Supercomputing Center](https://www.vscentrum.be/), it's very likely that you will be using the GPU cluster and debug cluster through the. As you can imagine this is not the only cluster you can use, but for trai is good to have an interactive session in order to understand how it is working.
 
@@ -66,8 +64,7 @@ It means that the files and storage systems in place **will vary**. Knowing this
 
 As you probably already guessed, there is a difference if we are talking about personal use and project wise. Specific projects might request specific resources and will define who can access it.
 
-Overview UGent VSC
--------------
+### Overview UGent VSC
 <!-- style="color: magenta" --> VO = virtual organization
 
 | Tier  | Login (vscnumber) | Personal storage space | VO Storage Space |  VO Project space |
@@ -75,8 +72,7 @@ Overview UGent VSC
 |Tier 1 | tier1.hpc.ugent.be |yes|yes|yes|
 |Tier 2 Ghent | login.hpc.ugent.be |yes|yes|none|
 
-UGent VSC Clusters
------------------------------------
+### UGent VSC Clusters
 
 On top of the filesystem, each clusters will have different computational powers, therefore, depending on your needs, you can choose the one that most suits you.
 
@@ -93,9 +89,8 @@ On top of the filesystem, each clusters will have different computational powers
 
 \** [debugging cluster (Used for debugging and training)](https://docs.hpc.ugent.be/Linux/interactive_debug/)
 
---------------------------------------------------------------------------
 
-#### UGent TIER 1
+### UGent TIER 1
 
 | Cluster name  | Memory (GiB) | Disk space (GB) SSD  |  GPU | GPU memory (GiB)|
 | --- | --- | --- | --- | --- |

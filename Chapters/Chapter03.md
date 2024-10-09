@@ -223,6 +223,6 @@ https://empanada.readthedocs.io/en/latest/tutorials/2d_tutorial.html#d-inference
 At the end you should the that the images have been segmented using the mitonet_v1 model
       ![Napari empanada](/images/napari/02_napari_empanada.png 'Napari empanada')
 
-
+[previous chapter](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-bic-training/2024_Bioimaging_data_analysis_on_HPC/refs/heads/main/Chapters/Chapter02.md) | [next chapter](https://liascript.github.io/course/?https://raw.githubusercontent.com/vib-bic-training/2024_Bioimaging_data_analysis_on_HPC/refs/heads/main/Chapters/Chapter04.md)
 
 
